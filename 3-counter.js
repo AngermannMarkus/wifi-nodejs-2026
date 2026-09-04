@@ -1,0 +1,10 @@
+let counter = 1;
+
+const interval = setInterval(() => {
+    console.log(`${counter} iteration`);
+
+    if (counter++ > 3) {
+        clearInterval(interval);
+    }
+}, 2000);
+

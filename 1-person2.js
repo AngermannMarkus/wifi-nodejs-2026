@@ -15,6 +15,6 @@ console.log(markus.phone);
 console.log(julian.phone);
 console.log(julian);
 
-let xyvariable = 'Beispieltext';
+let xyvariable = 'Das ist ein Test! .';
 console.log(xyvariable);
 console.log('Das ist ein Test');
