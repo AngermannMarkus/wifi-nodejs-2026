@@ -1,0 +1,11 @@
+{
+  "name": "testp",
+  "version": "1.0.0",
+  "description": "test desc",
+  "main": "2-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Markus",
+  "license": "ISC"
+}
