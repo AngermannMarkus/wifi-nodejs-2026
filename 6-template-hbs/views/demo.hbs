@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <p>Das ist mein HBS {{demo.name}} -Test!</p>
+    <p>Das ist mein HBS {{demo.name}} -Test! Meine Hanynummer ist: {{demo.tel}}</p>
+    <p>{{project.name}} hat folgende Skills: <br>
+        {{#each project.skills}}
+        {{this}} <br>
+        {{/each}}
+    </p>
 </body>
+
 </html>
