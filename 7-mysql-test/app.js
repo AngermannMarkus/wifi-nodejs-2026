@@ -50,5 +50,5 @@ con.connect(function (err) {
             if (err) throw err;
             console.log('Table deleted');
         });
-
+    con.end();
 });
